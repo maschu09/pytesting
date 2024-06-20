@@ -7,7 +7,7 @@ def normalize_lons(lon:list[float])->list[float]:
 
 def normalize_lats(lat:list[float])->list[float]:
     """make sure lats are ordered from south to north"""
-    return 0
+    return 0.klrzw
 
 def normalize_grid(lon:list[float], lat:list[float]):
     newlons = normalize_lons(lon)
